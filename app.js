@@ -17,6 +17,7 @@ let data = [
           { word: "peach", meaning: "quả đào" }
         ]
       },
+
       {
         name: "Lesson 2 - Animals",
         cards: [
@@ -31,11 +32,42 @@ let data = [
           { word: "zebra", meaning: "con ngựa vằn" },
           { word: "giraffe", meaning: "con hươu cao cổ" }
         ]
+      },
+
+      {
+        name: "Lesson 3 - Numbers 1-10",
+        cards: [
+          { word: "one", meaning: "số một" },
+          { word: "two", meaning: "số hai" },
+          { word: "three", meaning: "số ba" },
+          { word: "four", meaning: "số bốn" },
+          { word: "five", meaning: "số năm" },
+          { word: "six", meaning: "số sáu" },
+          { word: "seven", meaning: "số bảy" },
+          { word: "eight", meaning: "số tám" },
+          { word: "nine", meaning: "số chín" },
+          { word: "ten", meaning: "số mười" }
+        ]
+      },
+
+      {
+        name: "Lesson 4 - Numbers 11-20",
+        cards: [
+          { word: "eleven", meaning: "số mười một" },
+          { word: "twelve", meaning: "số mười hai" },
+          { word: "thirteen", meaning: "số mười ba" },
+          { word: "fourteen", meaning: "số mười bốn" },
+          { word: "fifteen", meaning: "số mười lăm" },
+          { word: "sixteen", meaning: "số mười sáu" },
+          { word: "seventeen", meaning: "số mười bảy" },
+          { word: "eighteen", meaning: "số mười tám" },
+          { word: "nineteen", meaning: "số mười chín" },
+          { word: "twenty", meaning: "số hai mươi" }
+        ]
       }
     ]
   }
 ];
-
 // ================= STATE =================
 
 let view = "home";
