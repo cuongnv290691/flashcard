@@ -2,40 +2,9 @@ let data = [
   {
     class: "Class 1",
     lessons: [
-      {
-        name: "Lesson 1 - Fruits",
-        cards: [
-          { word: "apple", meaning: "quả táo" },
-          { word: "banana", meaning: "quả chuối" },
-          { word: "orange", meaning: "quả cam" },
-          { word: "grape", meaning: "quả nho" },
-          { word: "mango", meaning: "quả xoài" },
-          { word: "pineapple", meaning: "quả dứa" },
-          { word: "watermelon", meaning: "quả dưa hấu" },
-          { word: "strawberry", meaning: "quả dâu tây" },
-          { word: "pear", meaning: "quả lê" },
-          { word: "peach", meaning: "quả đào" }
-        ]
-      },
 
       {
-        name: "Lesson 2 - Animals",
-        cards: [
-          { word: "cat", meaning: "con mèo" },
-          { word: "dog", meaning: "con chó" },
-          { word: "lion", meaning: "con sư tử" },
-          { word: "tiger", meaning: "con hổ" },
-          { word: "elephant", meaning: "con voi" },
-          { word: "monkey", meaning: "con khỉ" },
-          { word: "rabbit", meaning: "con thỏ" },
-          { word: "bear", meaning: "con gấu" },
-          { word: "zebra", meaning: "con ngựa vằn" },
-          { word: "giraffe", meaning: "con hươu cao cổ" }
-        ]
-      },
-
-      {
-        name: "Lesson 3 - Numbers 1-10",
+        name: "Lesson 1 - Numbers 1-10",
         cards: [
           { word: "one", meaning: "số một" },
           { word: "two", meaning: "số hai" },
@@ -51,7 +20,7 @@ let data = [
       },
 
       {
-        name: "Lesson 4 - Numbers 11-20",
+        name: "Lesson 2 - Numbers 11-20",
         cards: [
           { word: "eleven", meaning: "số mười một" },
           { word: "twelve", meaning: "số mười hai" },
@@ -64,7 +33,184 @@ let data = [
           { word: "nineteen", meaning: "số mười chín" },
           { word: "twenty", meaning: "số hai mươi" }
         ]
+      },
+
+      {
+        name: "Lesson 3 - Animals",
+        cards: [
+          { word: "cow", meaning: "con bò" },
+          { word: "duck", meaning: "con vịt" },
+          { word: "fox", meaning: "con cáo" },
+          { word: "goat", meaning: "con dê" },
+          { word: "octopus", meaning: "con bạch tuộc" },
+          { word: "penguin", meaning: "chim cánh cụt" },
+          { word: "pig", meaning: "con heo" },
+          { word: "rabbit", meaning: "con thỏ" },
+          { word: "tiger", meaning: "con hổ" },
+          { word: "zebra", meaning: "con ngựa vằn" }
+        ]
+      },
+
+      {
+        name: "Lesson 4 - School Things",
+        cards: [
+          { word: "book", meaning: "quyển sách" },
+          { word: "close your book", meaning: "đóng sách lại" },
+          { word: "open your book", meaning: "mở sách ra" },
+          { word: "crayon", meaning: "bút sáp màu" },
+          { word: "eraser", meaning: "cục tẩy" },
+          { word: "pen", meaning: "bút mực" },
+          { word: "pencil case", meaning: "hộp bút" },
+          { word: "picture", meaning: "bức tranh" },
+          { word: "read", meaning: "đọc" },
+          { word: "spell", meaning: "đánh vần" }
+        ]
+      },
+
+      {
+        name: "Lesson 5 - Shapes",
+        cards: [
+          { word: "circle", meaning: "hình tròn" },
+          { word: "rectangle", meaning: "hình chữ nhật" },
+          { word: "square", meaning: "hình vuông" },
+          { word: "triangle", meaning: "hình tam giác" },
+          { word: "count", meaning: "đếm" },
+          { word: "draw", meaning: "vẽ" },
+          { word: "number", meaning: "chữ số" },
+          { word: "question", meaning: "câu hỏi" },
+          { word: "word", meaning: "từ" },
+          { word: "listen", meaning: "nghe" }
+        ]
+      },
+
+      {
+        name: "Lesson 6 - Transportation",
+        cards: [
+          { word: "bike", meaning: "xe đạp" },
+          { word: "boat", meaning: "con thuyền, con tàu" },
+          { word: "bus", meaning: "xe buýt" },
+          { word: "motorbike", meaning: "xe gắn máy" },
+          { word: "plane", meaning: "máy bay" },
+          { word: "ride", meaning: "đi xe (đạp), cưỡi" },
+          { word: "park", meaning: "công viên" },
+          { word: "playground", meaning: "sân chơi" },
+          { word: "sea", meaning: "biển" },
+          { word: "beach", meaning: "bãi biển" }
+        ]
+      },
+
+      {
+        name: "Lesson 7 - Clothes",
+        cards: [
+          { word: "dress", meaning: "áo đầm" },
+          { word: "hat", meaning: "mũ nón" },
+          { word: "pants", meaning: "quần dài" },
+          { word: "shirt", meaning: "áo sơ mi" },
+          { word: "shoes", meaning: "đôi giày" },
+          { word: "shorts", meaning: "quần ngắn" },
+          { word: "socks", meaning: "đôi tất, vớ" },
+          { word: "umbrella", meaning: "cái ô, cây dù" },
+          { word: "vest", meaning: "áo ghi lê" },
+          { word: "window", meaning: "cửa sổ" }
+        ]
+      },
+
+      {
+        name: "Lesson 8 - Feelings",
+        cards: [
+          { word: "bored", meaning: "chán nản" },
+          { word: "fine", meaning: "khỏe, tốt" },
+          { word: "great", meaning: "tuyệt vời" },
+          { word: "happy", meaning: "hạnh phúc, vui vẻ" },
+          { word: "hungry", meaning: "đói bụng" },
+          { word: "OK", meaning: "được, ổn" },
+          { word: "sad", meaning: "buồn" },
+          { word: "scared", meaning: "sợ hãi" },
+          { word: "thirsty", meaning: "khát nước" },
+          { word: "eat", meaning: "ăn" }
+        ]
+      },
+
+      {
+        name: "Lesson 9 - Days and Activities",
+        cards: [
+          { word: "Monday", meaning: "thứ hai" },
+          { word: "Tuesday", meaning: "thứ ba" },
+          { word: "Wednesday", meaning: "thứ tư" },
+          { word: "Thursday", meaning: "thứ năm" },
+          { word: "Friday", meaning: "thứ sáu" },
+          { word: "Saturday", meaning: "thứ bảy" },
+          { word: "Sunday", meaning: "chủ nhật" },
+          { word: "sing", meaning: "hát" },
+          { word: "music", meaning: "âm nhạc" },
+          { word: "song", meaning: "bài hát" }
+        ]
+      },
+
+      {
+        name: "Lesson 10 - Toys and Games",
+        cards: [
+          { word: "hands down", meaning: "hạ tay xuống" },
+          { word: "hands up", meaning: "giơ tay lên" },
+          { word: "hide and seek", meaning: "trò chơi trốn tìm" },
+          { word: "hopscotch", meaning: "trò nhảy lò cò" },
+          { word: "robot", meaning: "người máy" },
+          { word: "soccer", meaning: "bóng đá" },
+          { word: "tag", meaning: "trò đuổi bắt" },
+          { word: "top", meaning: "con quay" },
+          { word: "yo-yo", meaning: "đồ chơi yo-yo" },
+          { word: "violin", meaning: "đàn vĩ cầm" }
+        ]
+      },
+
+      {
+        name: "Lesson 11 - Daily Words",
+        cards: [
+          { word: "box", meaning: "cái hộp, cái thùng" },
+          { word: "nose", meaning: "mũi" },
+          { word: "nut", meaning: "hạt, quả hạch" },
+          { word: "orange", meaning: "quả cam" },
+          { word: "queen", meaning: "nữ hoàng" },
+          { word: "ruler", meaning: "thước kẻ" },
+          { word: "sun", meaning: "mặt trời" },
+          { word: "snack", meaning: "thức ăn nhẹ" },
+          { word: "yogurt", meaning: "sữa chua" },
+          { word: "zoo", meaning: "sở thú" }
+        ]
+      },
+
+      {
+        name: "Lesson 12 - Colors",
+        cards: [
+          { word: "red", meaning: "màu đỏ" },
+          { word: "blue", meaning: "màu xanh dương" },
+          { word: "yellow", meaning: "màu vàng" },
+          { word: "green", meaning: "màu xanh lá cây" },
+          { word: "black", meaning: "màu đen" },
+          { word: "white", meaning: "màu trắng" },
+          { word: "orange", meaning: "màu cam" },
+          { word: "pink", meaning: "màu hồng" },
+          { word: "purple", meaning: "màu tím" },
+          { word: "brown", meaning: "màu nâu" }
+        ]
+      },
+
+      {
+        name: "Lesson 13 - Food and Drinks",
+        cards: [
+          { word: "snack", meaning: "thức ăn nhẹ" },
+          { word: "yogurt", meaning: "sữa chua" },
+          { word: "milk", meaning: "sữa" },
+          { word: "juice", meaning: "nước ép" },
+          { word: "water", meaning: "nước" },
+          { word: "hot chocolate", meaning: "sô-cô-la nóng" },
+          { word: "tea", meaning: "trà" },
+          { word: "ice cream", meaning: "kem" },
+          { word: "meat", meaning: "thịt" },
+          { word: "rice", meaning: "cơm, gạo" }
+        ]
       }
+
     ]
   }
 ];
